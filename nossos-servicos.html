@@ -1,105 +1,92 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Nossos Serviços - Pet e Vet - Niterói</title>
 
-  <!-- Load demo css w/ hamburger icon -->
-  <link rel="stylesheet" href="styles-001.css">
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Nossos Serviços - Pet e Vet - Niterói</title>
 
-  <!-- Load a pretty webfont -->
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href="min-css-002.css" rel="stylesheet" type="text/css" />
+		<link href="min-css-navbar-plugin-001.css" rel="stylesheet" type="text/css" />
 
-  <!-- Add some styling for the page -->
-  <style>
-    body {
-      -webkit-background-size: cover;
-      background-size: cover;
-      font-family: 'Open Sans', sans-serif;
-      height: 100vh;
-      margin: 0;
-    }
+		<style type="text/css">
+			#textholderholder, #textholder {
+				text-align: left !important;
+			}
 
-    .cbnav { 
-      position: relative; 
-      background-color: #003;
-      height: 60px;
-      padding-top: 20px;
-    } /* solely for the logo */
+			/* make navbar close button look good when not pressed up against top of screen */
+			button.btn-close.btn-sm {
+				padding-top: 4px;
+				margin-top: -49px;
+			}
 
-    .logo {
-      position: absolute;
-      right: .5rem;
-      top: 0px;
-      width: 200px;
-    }
+			@media (min-width: 1310px) {
+				.nav .container {
+					width: 1235px;
+				}
+			}
 
-    @media (min-width: 768px) {
-     /* .wrapper { padding-top: 2rem; */
-     /* .logo { top: -7px; } */
-    }
-  </style>
-</head>
-<body>
-
-<div class="nav-wrapper">
-  <!-- Begin markup for example navigation -->
-  <nav class="cbnav">
-    <label for="toggle" id="toggle-menu" style="margin-left: 10px"></label>
-    <input type="checkbox" id="toggle">
-    <ul class="cbnav__lvl--first">
-      <li class="cbnav__item"><a class="cbnav__link--first" href="index.html">Início</a></li>
-      <li class="cbnav__item"><a class="cbnav__link--first cbnav__link--active" href="quem-somos.html">Quem Somos
-        <label title="Toggle drop-down" class="cbnav__label" for="id0"><span class="cbnav__arrow"></span></label>
-      </a>
-        <input type="checkbox" id="id0">
-        <ul class="cbnav__lvl--sub">
-          <li class="cbnav__item"><a class="cbnav__link--sub" href="nossos-fundadores.html">Nossos Fundadores</a></li>
-        </ul>
-      </li>
-      <li class="cbnav__item"><a class="cbnav__link--first" href="nossos-servicos.html">Nossos Serviços
-        <label title="Toggle drop-down" class="cbnav__label" for="id1"><span class="cbnav__arrow"></span></label>
-      </a>
-        <input type="checkbox" id="id1">
-        <ul class="cbnav__lvl--sub">
-          <li class="cbnav__item"><a class="cbnav__link--sub" href="banho-e-tosa.html">Banho e Tosa</a></li>
-          <li class="cbnav__item"><a class="cbnav__link--sub" href="pet-shop.html">Pet Shop</a></li>
-          <li class="cbnav__item"><a class="cbnav__link--sub" href="clinica-veterinaria.html">Clínica Veterinária</a></li>
-        </ul>      </li>
-      <li class="cbnav__item"><a class="cbnav__link--first" href="fale-conosco.html">Fale Conosco</a></li>
-    </ul>
-        <img src="img/logo-001.png" alt="logo" class="logo">
-  </nav>
-  <!-- End markup for example navigation -->
-</div>
-  
-<div class="container-outer">
-  <img src="img/banner-001.jpg" alt="Pet e Vet" style="width: 100%; margin: 0; padding: 0; display: block">
-      <div class="container">
-      <div>
-        <h4>Veterinária Pet e Vet - Icaraí, Niterói</h4>
-        <h2>Nossos Serviços</h2>
-        <p>Somos uma clínica moderna, em constante atualização, preparados para atender ao cliente que vem em busca de orientação e solução para os problemas de saúde e comportamento de seus cães e gatos.</p>
-        <p>Oferecemos serviço de atendimento 24 horas, para consultas de rotina e de emergência que quanto mais rápida a intervenção melhor para seu companheiro. </p>
-        <p>Nada mais importante que manter seu pet com uma boa saúde, devemos levar eles regularmente em uma consulta veterinária. </p>
-        <p>O profissional irá examinar seu pet, recomendar medicamentos e outros procedimentos. </p>
-        <p>O atendimento é 24 horas do nosso hospital veterinário saúde localizado no bairro de Icaraí em Niteroi. </p>
-        <p>Venha conhecer nosso consultório veterinário 24 horas.</p>
-        <br>
-        <p>(21) 2711-8898 | (21) 2711-7557</p>
-        <p>pet_vet@ibest.com.br</p>
-        <p>Av. Sete De Setembro, 65 • Niterói / RJ</p>
-        <p>Pet e Vet Niterói © 2017 | Clínica Veterinária</p>  
-        <br>      
-        <p>Visite-nos no Facebook</p>
-        <a href="https://www.facebook.com/petevetveterinaria/" target="_blank">
-          <img src="img/facebook_circle_color-256.png" 
-            style="width: 64px; height: 64px"
-            alt="Pet e Vet Clínica Veterinária">
-        </a>
-    </div>
-  </div>
-</div>
-</body>
+			#textholderholder {
+				overflow-x: auto;
+				white-space: nowrap;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="mediumwidth" id="navbarholder">
+				<nav class="nav" tabindex="-1" onclick="this.focus()">
+					<div class="container">
+						<a class="pagename current" href="index.html"><img src="img/logo-001.png" alt="Pet e Vet" style="width: 100px"></a>
+						<a href="index.html">Início</a>
+						<div class="wpd">Quem Somos
+							<div class="pulldown">
+								<ul>
+									<li><a href="nossos-fundadores.html">Nossos Fundadores</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="wpd">Nossos Serviços
+							<div class="pulldown">
+								<ul>
+									<li><a href="banho-e-tosa.html">Banho e Tosa</a></li>
+									<li><a href="pet-shop.html">Pet Shop</a></li>
+									<li><a href="clinica-veterinaria.html">Clínica Veterinária</a></li>
+								</ul>
+							</div>
+						</div>
+						<a href="fale-conosco.html">Fale Conosco</a>
+						<div class="navlink-right">
+							<a href="#">PT</a>
+							<a href="#">EN</a>
+							<a href="#">ES</a>
+						</div>
+					</div>
+				</nav>
+				<button class="btn-close btn btn-sm">×</button>
+			</div>
+  			<img src="img/banner-001.jpg" alt="Pet e Vet" style="width: 100%; margin: 0; padding: 0; display: block">
+			<div class="container">
+		        <h4>Veterinária Pet e Vet - Icaraí, Niterói</h4>
+		        <h2>Nossos Serviços</h2>
+		        <p>Somos uma clínica moderna, em constante atualização, preparados para atender ao cliente que vem em busca de orientação e solução para os problemas de saúde e comportamento de seus cães e gatos.</p>
+		        <p>Oferecemos serviço de atendimento 24 horas, para consultas de rotina e de emergência que quanto mais rápida a intervenção melhor para seu companheiro. </p>
+		        <p>Nada mais importante que manter seu pet com uma boa saúde, devemos levar eles regularmente em uma consulta veterinária. </p>
+		        <p>O profissional irá examinar seu pet, recomendar medicamentos e outros procedimentos. </p>
+		        <p>O atendimento é 24 horas do nosso hospital veterinário saúde localizado no bairro de Icaraí em Niteroi. </p>
+		        <p>Venha conhecer nosso consultório veterinário 24 horas.</p>
+		        <br>
+		        <p>(21) 2711-8898 | (21) 2711-7557</p>
+		        <p>pet_vet@ibest.com.br</p>
+		        <p>Av. Sete De Setembro, 65 • Niterói / RJ</p>
+		        <p>Pet e Vet Niterói © 2017 | Clínica Veterinária</p>  
+		        <br>      
+		        <p>Visite-nos no Facebook</p>
+		        <a href="https://www.facebook.com/petevetveterinaria/" target="_blank">
+		          <img src="img/facebook_circle_color-256.png" 
+		            style="width: 64px; height: 64px"
+		            alt="Pet e Vet Clínica Veterinária">
+		        </a>
+			</div>
+		</div>
+	</body>
 </html>
