@@ -169,7 +169,7 @@ input[type=text] {
     color: #fff
 }
 .nav {
-    height: 32px;
+    height: 24px;
     padding: 11px 0 15px
 }
 .nav a {
@@ -215,7 +215,7 @@ input[type=text] {
         height: auto
     }
     .nav div:before {
-        background: #000;
+        background: #033;
         border-bottom: 10px double;
         border-top: 3px solid;
         content: '';
