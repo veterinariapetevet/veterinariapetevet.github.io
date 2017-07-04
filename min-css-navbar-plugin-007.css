@@ -39,9 +39,11 @@ div.wpd {
 	position: relative;
 	display: inline-block;
 	padding-top: 0;
-	font-size: 14px;
+	font-size: 16px; /* 20170703h2111 stefanscottalexx@gmail.com*/
+	font-weight:bold; /* 20170703h2111 stefanscottalexx@gmail.com*/
 	top: -1px;
 	padding-right: 1em;
+	color: #aaa; /* 20170703h2004 stefanscottalexx@gmail.com*/
 }
 
 div.wpd::after {
@@ -73,7 +75,7 @@ div.wpd:hover .pulldown {
 
 .pulldown {
 	display: none;
-	background: black;
+	background: #033; /* 20170703h2116 stefanscottalexx@gmail.com */
 	width: 205px;
 	position: absolute;
 	left: -13px;
